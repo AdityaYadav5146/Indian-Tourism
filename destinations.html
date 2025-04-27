@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destinations - Indian Tourism</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <a href="index.html" class="logo">Indian Tourism</a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="destinations.html">Destinations</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Destinations Section -->
+    <section class="destinations">
+        <h1 style=" color: #f37e21; text-align: center;font-size: 2rem;">Popular Destinations in India</h1>
+        <div class="card-container">
+            <!-- Taj Mahal Card -->
+            <div class="card" data-destination="Taj Mahal">
+                <img src="images/tajmahal.jpg" alt="Taj Mahal">
+                <h3>Taj Mahal</h3>
+                <p>One of the seven wonders of the world, the Taj Mahal is a symbol of love and an architectural marvel located in Agra.</p>
+            </div>
+
+            <!-- Kerala Backwaters Card -->
+            <div class="card" data-destination="Kerala Backwaters">
+                <img src="images/kerals.jpg" alt="Kerala Backwaters">
+                <h3>Kerala Backwaters</h3>
+                <p>Experience the tranquil beauty of Kerala's backwaters, nestled between lush greenery and serene waters.</p>
+            </div>
+
+            <!-- Leh Ladakh Card -->
+            <div class="card" data-destination="Leh Ladakh">
+                <img src="images/leh.jpg" alt="Leh Ladakh">
+                <h3>Leh Ladakh</h3>
+                <p>Situated in the Himalayas, Leh is known for its stunning landscapes, monasteries, and adventure sports.</p>
+            </div>
+
+            <!-- Jaipur - Pink City Card -->
+            <div class="card" data-destination="Jaipur">
+                <img src="images/jaipur.jpg" alt="Jaipur">
+                <h3>Jaipur - Pink City</h3>
+                <p>Known for its majestic palaces, forts, and vibrant markets, Jaipur is the capital of Rajasthan and a UNESCO World Heritage site.</p>
+            </div>
+
+            <!-- Goa Beaches Card -->
+            <div class="card" data-destination="Goa">
+                <img src="images/goa.jpg" alt="Goa">
+                <h3>Goa</h3>
+                <p>Famous for its beautiful beaches, nightlife, and Portuguese heritage, Goa is one of India's top travel destinations.</p>
+            </div>
+
+            <!-- Varanasi - Spiritual Hub Card -->
+            <div class="card" data-destination="Varanasi">
+                <img src="images/varanasi_Ahilya_Ghat.jpg" alt="Varanasi">
+                <h3>Varanasi - Spiritual Hub</h3>
+                <p>One of the oldest cities in the world, Varanasi is considered the spiritual capital of India, offering a unique cultural experience.</p>
+            </div>
+
+            <!-- Rishikesh - Yoga Capital Card -->
+            <div class="card" data-destination="Rishikesh">
+                <img src="images/rishikesh.jpg" alt="Rishikesh">
+                <h3>Rishikesh - Yoga Capital</h3>
+                <p>Known for yoga and adventure sports, Rishikesh is nestled in the foothills of the Himalayas on the banks of the Ganges River.</p>
+            </div>
+
+            <!-- Andaman & Nicobar Islands Card -->
+            <div class="card" data-destination="Andaman & Nicobar Islands">
+                <img src="images/Radhanagar-beach-at-swaraj-dweep-havelock-1024x682.webp" alt="Andaman Islands">
+                <h3>Andaman & Nicobar Islands</h3>
+                <p>Famous for pristine beaches, coral reefs, and rich marine life, the Andaman Islands offer a tropical escape.</p>
+            </div>
+
+            <!-- Mysore - City of Palaces Card -->
+            <div class="card" data-destination="Mysore">
+                <img src="images/mysore.jpg" alt="Mysore">
+                <h3>Mysore - City of Palaces</h3>
+                <p>Known for its royal palaces, gardens, and the grand Mysore Dasara festival, Mysore is a blend of history and culture.</p>
+            </div>
+
+            <!-- Agra - Fatehpur Sikri Card -->
+            <div class="card" data-destination="Fatehpur Sikri">
+                <img src="images/fatehpur.webp" alt="Fatehpur Sikri">
+                <h3>Fatehpur Sikri</h3>
+                <p>Fatehpur Sikri is a UNESCO World Heritage site near Agra, known for its grand Mughal architecture and historical significance.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Modal Structure for Destinations -->
+    <div id="destinationModal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h2 id="modalTitle"></h2>
+            <p id="modalDescription"></p>
+        </div>
+    </div>
+
+    <!-- Script File Link -->
+    <script src="script.js"></script>
+    <footer >
+        <p>&copy; 2024 Indian Tourism. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
